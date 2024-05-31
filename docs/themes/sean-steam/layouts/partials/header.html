@@ -1,0 +1,6 @@
+<header id="site-head">
+  <a id="blog-logo" href="/"><div class="bloglogo" style="background: url(/img/logo.png)"></div></a>
+	{{ with .Site.Params.title }}
+	<h1 class="blog-title"><a href="{{ $.Site.BaseURL }}">{{ . | markdownify }}</a></h1>
+	{{ end }}
+</header>

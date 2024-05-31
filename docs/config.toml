@@ -1,0 +1,59 @@
+baseurl = "https://www.blackjim.com.br"
+languageCode = "pt-br"
+title = "black jim"
+theme = "sean-steam"
+# Enable Google Analytics be inserting your tracking code
+# Number of posts per page
+paginate = 5
+
+[permalinks]
+  post = "/:year/:month/:day/:title/"
+
+[params]
+  title = "black jim"
+  copyright = ""
+
+  # You can choose between green, orange, red and blue.
+  themecolor = "blue"
+
+  # Link custom assets relative to /static
+  favicon   = "favicon.ico"
+  customCSS = []
+  customJS  = []
+
+  # To provide some metadata for search engines and the about section in the footer
+  # feel free to add a few information about you and your website.
+  name = "Sean T Allen"
+  bio = "Co-author of [Storm Applied: Strategies for real-time event processing](http://manning.com/sallen/?a_aid=sallen)"
+  description = ""
+
+  # Link your social networks (optional)
+  location = ""
+  twitter = "seantallen"
+  linkedin = ""
+  googleplus = ""
+  facebook = ""
+  instagram = ""
+  github = "seantallen"
+  gitlab = ""
+  bitbucket = ""
+
+  # Customize or translate the strings
+  keepReadingStr = "READ THIS ARTICLE"
+  backtotopStr = "Back to top"
+  shareStr = "Share"
+  pageNotFoundTitle = "404 - Page not found"
+  useSummaryIfNoDescription = true
+
+[[menu.main]]
+    name = "About"
+    weight = -110
+    url = "/about/"
+[[menu.main]]
+    name = "Storm Applied"
+    weight = -100
+    url = "http://manning.com/sallen/?a_aid=sallen"
+[[menu.main]]
+    name = "RSS"
+    weight = -90
+    url = "/index.xml"
