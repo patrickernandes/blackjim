@@ -1,6 +1,9 @@
 title: Minimal theme
 logo: /assets/img/logo.png
 description: Minimal is a theme for GitHub Pages.
+author: patrickernandes
+email: suporte@ernandes.info
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+timezone: America/Sao_Paulo
