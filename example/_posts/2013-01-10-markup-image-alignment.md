@@ -1,9 +1,5 @@
 ---
 title: "Markup: Image Alignment"
-image: 
-  path: /images/so-simple-sample-image-5.jpg
-  thumbnail: /images/so-simple-sample-image-5-400x200.jpg
-  caption: "Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
 categories:
   - Markup
 tags:
@@ -13,7 +9,7 @@ tags:
   - css
   - image
   - markup
-last_modified_at: 2018-02-05T16:19:20-05:00
+last_modified_at: 2017-03-09T11:15:57-05:00
 ---
 
 The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let's get started.
@@ -34,21 +30,21 @@ Or use Kramdown and [inline attribute lists](https://kramdown.gettalong.org/synt
 ![right-aligned-image](image.jpg){: .align-right}
 ```
 
-![image-center]({{ '/images/image-alignment-580x300.jpg' | absolute_url }}){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/image-alignment-580x300.jpg){: .align-center}
 
 The image should be **centered** with the `.align-center` class.
 
-![image-left]({{ '/images/image-alignment-150x150.jpg' | absolute_url }}){: .align-left} The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **left aligned** with the `.align-left` class.
+![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/image-alignment-150x150.jpg){: .align-left} The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **left aligned** with the `.align-left` class.
 
 As you can see the should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we'll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it's thing. Mission accomplished!
 
 And now for a **massively large image** --- it has **no alignment**.
 
-![no-alignment]({{ '/images/image-alignment-1200x4002.jpg' | absolute_url }})
+![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/image-alignment-1200x4002.jpg)
 
 The image above, though `1200px` wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.
 
-![image-right]({{ '/images/image-alignment-300x200.jpg' | absolute_url }}){: .align-right}
+![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/image-alignment-300x200.jpg){: .align-right}
 
 And now we're going to shift things to the **right** with the `.align-right` class. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
 
@@ -57,14 +53,14 @@ In just a bit here, you should see the text start to wrap below the right aligne
 And just when you thought we were done, we're going to do them all over again with captions!
 
 <figure class="align-center">
-  <a href="#"><img src="{{ '/images/image-alignment-580x300.jpg' | absolute_url }}" alt=""></a>
+  <a href="#"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/image-alignment-580x300.jpg" alt=""></a>
   <figcaption>Look at 580 x 300 <a href="#">getting some</a> love.</figcaption>
 </figure> 
 
 The figure above happens to be **centered**. The caption also has a link in it, just to see if it does anything funky.
 
 <figure style="width: 150px" class="align-left">
-  <img src="{{ '/images/image-alignment-150x150.jpg' | absolute_url }}" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/image-alignment-150x150.jpg" alt="">
   <figcaption>Itty-bitty caption.</figcaption>
 </figure> 
 
@@ -75,14 +71,14 @@ As you can see the should be some space above, below, and to the right of the im
 And now for a massively large image with **no alignment**.
 
 <figure style="width: 1200px">
-  <img src="{{ '/images/image-alignment-1200x4002.jpg' | absolute_url }}" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/image-alignment-1200x4002.jpg" alt="">
   <figcaption>Massive image comment for your eyeballs.</figcaption>
 </figure> 
 
-The figure element above has an inline style of `width: 1200px` set which should cause it to break outside of the normal content flow.
+The figure element above has an inline style of `width: 1200px` set which should case it to break outside of the normal content flow.
 
 <figure style="width: 300px" class="align-right">
-  <img src="{{ '/images/image-alignment-300x200.jpg' | absolute_url }}" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/image-alignment-300x200.jpg" alt="">
   <figcaption>Feels good to be on the right.</figcaption>
 </figure> 
 

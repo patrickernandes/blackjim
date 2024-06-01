@@ -9,7 +9,7 @@ elements:
   - formatting
   - html
   - markup
-last_modified_at: 2018-02-01T10:16:49-05:00
+last_modified_at: 2017-03-09T10:55:59-05:00
 ---
 
 A variety of common HTML elements to demonstrate the theme's stylesheet and verify they have been styled appropriately.
@@ -35,17 +35,14 @@ Single line blockquote:
 Multi line blockquote with a cite reference:
 
 > People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying no to 1,000 things.
->
-> <footer><strong>Steve Jobs</strong> &mdash; Apple Worldwide Developers' Conference, 1997</footer>
 
-Quoted text inline using `<q>` element:
-
-<p>Luke continued, <q>And then she called him a <q>scruffy-looking nerf-herder</q>! I think I’ve got a chance!</q> The poor naive fool&hellip;</p>
+<cite>Steve Jobs</cite> --- Apple Worldwide Developers' Conference, 1997
+{: .small}
 
 ## Tables
 
 | Employee         | Salary |                                                              |
-|------------------|--------|--------------------------------------------------------------|
+| --------         | ------ | ------------------------------------------------------------ |
 | [John Doe](#)    | $1     | Because that's all Steve Jobs needed for a salary.           |
 | [Jane Doe](#)    | $100K  | For all the blogging she does.                               |
 | [Fred Bloggs](#) | $100M  | Pictures are worth a thousand words, right? So Jane × 1,000. |
@@ -104,72 +101,6 @@ Do It Live
   2. List item two
   3. List item three
   4. List item four
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-```html
-<a href="#" class="btn--success">Success Button</a>
-```
-
-[Default Button](#){: .btn}
-[Primary Button](#){: .btn .btn--primary}
-[Accent Button](#){: .btn .btn--accent}
-[Success Button](#){: .btn .btn--success}
-[Warning Button](#){: .btn .btn--warning}
-[Danger Button](#){: .btn .btn--danger}
-[Info Button](#){: .btn .btn--info}
-[Inverse Button](#){: .btn .btn--inverse}
-[Light Outline Button](#){: .btn .btn--light-outline}
-
-```markdown
-[Default Button Text](#link){: .btn}
-[Primary Button Text](#link){: .btn .btn--primary}
-[Accent Button Text](#link){: .btn .btn--accent}
-[Success Button Text](#link){: .btn .btn--success}
-[Warning Button Text](#link){: .btn .btn--warning}
-[Danger Button Text](#link){: .btn .btn--danger}
-[Info Button Text](#link){: .btn .btn--info}
-[Inverse Button](#link){: .btn .btn--inverse}
-[Light Outline Button](#link){: .btn .btn--light-outline}
-```
-
-[X-Large Button](#){: .btn .btn--primary .btn--x-large}
-[Large Button](#){: .btn .btn--primary .btn--large}
-[Default Button](#){: .btn .btn--primary }
-[Small Button](#){: .btn .btn--primary .btn--small}
-
-```markdown
-[X-Large Button](#link){: .btn .btn--primary .btn--x-large}
-[Large Button](#link){: .btn .btn--primary .btn--large}
-[Default Button](#link){: .btn .btn--primary }
-[Small Button](#link){: .btn .btn--primary .btn--small}
-```
-
-## Notices
-
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice}` class.
-{: .notice}
-
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--primary}` class.
-{: .notice--primary}
-
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--accent}` class.
-{: .notice--accent}
-
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--info}` class.
-{: .notice--info}
-
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--warning}` class.
-{: .notice--warning}
-
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--success}` class.
-{: .notice--success}
-
-**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--danger}` class.
-{: .notice--danger}
-
 
 ## Address element
 

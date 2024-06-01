@@ -1,64 +1,80 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# `jekyll serve`. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
 
-# theme: jekyll-theme-so-simple
-remote_theme: mmistakes/so-simple-theme
-
-locale: en-US
-title: "So Simple"
-description: "A simple Jekyll theme for words and pictures."
-baseurl: "/so-simple-theme"
+# Site Settings
+lang: en-US
+title: Basically Basic
+email: dugan.nash@mailinator.com
+description: "Your new default Jekyll theme"
+baseurl: "/jekyll-theme-basically-basic"
 url: "https://mmistakes.github.io"
-logo: "/images/so-simple-site-logo.png"
-date_format: "%B %-d, %Y"
-read_time: true
-words_per_minute: # 200
-mathjax: true
-google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Lora"
-    weights: "400,400i,700,700i"
-google_analytics: "UA-2011187-2"
+repository: "mmistakes/minimal-mistakes"
+author:
+  name: Dugan Nash
+  twitter: Towlette_Pettetucci
+  picture: /assets/images/johndoe.png
+twitter_username: Towlette_Pettetucci
+github_username: Towlette_Pettetucci
+logo: /assets/icons/basically-basic-logo-light.svg
+google_analytics: UA-2011187-6
 disqus:
-  shortname: "sosimpletheme"
-twitter:
-  username: "mmistakes"
-google_site_verification: "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
+  shortname:
+search: true
+search_full_content: true
+search_provider: lunr
+algolia:
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 
-# Liquid
-liquid:
-  error_mode: strict
-
-# Build settings
-permalink: /:categories/:title/
+# Conversion
 markdown: kramdown
+highlighter: rouge
+lsi: false
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Plugins
+plugins: # previously gems
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-remote-theme
+
+# Jekyll Feed
 feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
 paginate_path: /page:num/
-
-# Search
-search_full_content: false
-
-# Taxonomy pages
-category_archive_path: "/categories/#"
-tag_archive_path: "/tags/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -72,13 +88,6 @@ tag_archive_path: "/tags/#"
 #   - vendor/gems/
 #   - vendor/ruby/
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-redirect-from
-
 # Collections
 collections:
   recipes:
@@ -87,51 +96,17 @@ collections:
 
 # Front Matter Defaults
 defaults:
-  # Post defaults
+  # _posts
   - scope:
       path: "_posts"
       type: posts
     values:
       layout: post
-      comments: true
-      share: true
-  # Recipe defaults
+      read_time: true
+  # _recipes
   - scope:
       path: "_recipes"
       type: recipes
     values:
       layout: post
-      comments: true
-      share: true
-
-# Site Author
-author:
-  name: Michael Rose
-  picture: /images/michael-rose-photo.jpg
-  email:
-  twitter: mmistakes
-  links:
-    - title: Twitter
-      url: https://twitter.com/mmistakes
-      icon: fab fa-twitter-square
-    - title: Instagram
-      url: https://instagram.com/mmistakes
-      icon: fab fa-instagram
-    - title: GitHub
-      url: https://github.com/mmistakes
-      icon: fab fa-github-square
-
-# Footer Links
-footer_links:
-  - title: Twitter
-    url: https://twitter.com/mmistakes
-    icon: fab fa-twitter-square
-  - title: Instagram
-    url: https://instagram.com/mmistakes
-    icon: fab fa-instagram
-  - title: GitHub
-    url: https://github.com/mmistakes
-    icon: fab fa-github-square
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+      read_time: true
