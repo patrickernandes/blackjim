@@ -1,37 +1,17 @@
-_site
+*.swp
 
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Ruby Gem
+*.gem
+.bundle
+Gemfile.lock
+vendor/bundle
 
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# macOS
 .DS_Store
-.AppleDouble
-.LSOverride
 
-# Icon must ends with two \r.
-Icon
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+# Jekyll generated files
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+_asset_bundler_cache
+_site
