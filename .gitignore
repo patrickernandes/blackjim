@@ -1,6 +1,4 @@
-_site
+.ruby-version
 .sass-cache
-.jekyll-cache
+_site
 .jekyll-metadata
-vendor
-Odin.ai
