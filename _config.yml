@@ -17,6 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+#https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 
 title: black jim - it core.
 description: Soluções em TI.
@@ -24,6 +25,8 @@ baseurl: / # the subpath of your site, e.g. /support
 url: https://blackjim.com.br # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 layout: single
+#minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "contrast"
 
 content_type: Knowledge Base #Define whether this is a knowledge base, help center, or something else
 use_authors: true #Set this to false to disable showing post authors
