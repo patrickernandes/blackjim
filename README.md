@@ -1,5 +1,4 @@
-# The Black Jim web site basead on Fuse Core Jekyll theme. 
-***
+#The Black Jim web site is basead on Jekyll Fuse Core theme. 
 
 # Fuse Core
 
