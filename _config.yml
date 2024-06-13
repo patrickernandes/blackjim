@@ -23,6 +23,7 @@ description: Soluções em TI.
 baseurl: / # the subpath of your site, e.g. /support
 url: https://blackjim.com.br # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
+layout: single
 
 content_type: Knowledge Base #Define whether this is a knowledge base, help center, or something else
 use_authors: true #Set this to false to disable showing post authors
