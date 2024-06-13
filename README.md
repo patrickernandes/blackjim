@@ -1,8 +1,10 @@
-# The **black jim** web site is basead on Jekyll *Fuse Core* theme. 
+# black jim
+
+The *black jim* web site is basead on Jekyll *Fuse Core* theme. 
 
 ## Fuse Core
 
-[GIT](https://github.com/tsjensen/fuse-core)
+[GIT](https://github.com/tsjensen/fuse-core)  
 [DEMO](https://tsjensen.github.io/fuse-core/)
 
 ## License
