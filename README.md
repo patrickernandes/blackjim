@@ -1,6 +1,9 @@
-[DEMO](https://tsjensen.github.io/fuse-core/)
+# The Black Jim web site basead on Fuse Core Jekyll theme. 
+***
 
 # Fuse Core
+
+[DEMO](https://tsjensen.github.io/fuse-core/)
 
 **A lightweight Jekyll theme for single-page personal websites.**
 
