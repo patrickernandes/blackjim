@@ -14,12 +14,12 @@ sass:
 # When modifying this file, take care to preserve the indentation. This is YAML ...
 
 # Main Headline, name required, subtitle optional
-name: Fuse Core
+name: black jim
 #subtitle:
-subtitle: Frontend Developer
+subtitle: it core
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title: Fuse Core
+title: black jim
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
@@ -30,7 +30,7 @@ robots:
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
-url: https://tsjensen.github.io/fuse-core/
+url: https://blackjim.com.br/
 
 # The 'baseurl' is prepended to all website-internal links.
 # 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
@@ -60,7 +60,6 @@ plausible:
 # A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
 # Leave empty for generic placeholder image.
 # You can use your GitHub image:
-#avatar: "https://avatars0.githubusercontent.com/u/8897534"
 avatar: "images/blackjim.png"
 #avatar:
 
