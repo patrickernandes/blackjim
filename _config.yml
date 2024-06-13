@@ -1,5 +1,7 @@
 # Fuse Core Theme for Jekyll - Settings
 # https://github.com/tsjensen/fuse-core
+# https://themes.jekyllrc.org/fuse-core
+#
 
 markdown: kramdown
 permalink: pretty
@@ -58,8 +60,8 @@ plausible:
 # A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
 # Leave empty for generic placeholder image.
 # You can use your GitHub image:
-avatar: "https://avatars0.githubusercontent.com/u/8897534"
-#avatar: "images/jonathan_doe.jpg"
+#avatar: "https://avatars0.githubusercontent.com/u/8897534"
+avatar: "images/blackjim-logo.png"
 #avatar:
 
 
