@@ -89,7 +89,7 @@ links:
       icon: fab fa-twitter
   - weibo:
       name: 微博
-      show: true
+      show: false
       href: https://weibo.com/YOUR_WEIBO_USERNAME
       icon: fab fa-weibo
   - vine:
@@ -104,7 +104,7 @@ links:
       icon: fab fa-facebook
   - vkontakte:
       name: ВКонтакте
-      show: true
+      show: false
       href: https://vk.com/YOUR_VK_USERNAME
       icon: fab fa-vk
   - instagram:
@@ -170,7 +170,7 @@ links:
   - email:
       name: Email
       show: true
-      href: mailto:jonathan.doe@host.domain
+      href: mailto:contato@blackjim.com.br
       icon: fas fa-envelope
   - publickey:
       name: PGP Key
