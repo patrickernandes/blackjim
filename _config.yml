@@ -135,7 +135,7 @@ links:
   - github:
       name: GitHub
       show: true
-      href: https://github.com/tsjensen
+      href: https://github.com/blackjim
       icon: fab fa-github
   - codepen:
       name: CodePen
@@ -182,7 +182,9 @@ links:
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
 extra_html: >
-    Any (multiline) text containing simple HTML,
-    such as links or ... lorem ipsum.
+    Soluções em infraestrutura, virtualizalção e backup.
+
+    Contato : (11) 98678-5389
+    
 
 #EOF
